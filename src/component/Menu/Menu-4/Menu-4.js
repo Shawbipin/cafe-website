@@ -312,7 +312,7 @@ const Menu4 = () => {
               <span>119/-</span>
             </p>
 
-            <div classNameName="menu4-item-img">
+            <div className="menu4-item-img">
               <img src={image10} alt="" />
             </div>
 

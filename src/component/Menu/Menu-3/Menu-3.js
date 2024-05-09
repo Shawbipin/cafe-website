@@ -112,7 +112,7 @@ const Menu3 = () => {
 
             <p id="menu3-price">210/-</p>
 
-            <div classNameName="menu3-item-img">
+            <div className="menu3-item-img">
               <img src={image4} alt="" />
             </div>
 
@@ -185,7 +185,7 @@ const Menu3 = () => {
           <div className="menu3-item-6">
             <p id="menu3-item-bag-heading">Prawn Tempura</p>
             <p id="menu3-price">210/-</p>
-            <div classNameName="menu3-item-img">
+            <div className="menu3-item-img">
               <img src={image7} alt="" />
             </div>
             <button id="menu3non-veg">
@@ -209,7 +209,7 @@ const Menu3 = () => {
           <div className="menu3-item-7">
             <p id="menu3-item-bag-heading">Spicy Chicken Wings</p>
             <p id="menu3-price">210/-</p>
-            <div classNameName="menu3-item-img">
+            <div className="menu3-item-img">
               <img src={image8} alt="" />
             </div>
             <button id="menu3non-veg">
