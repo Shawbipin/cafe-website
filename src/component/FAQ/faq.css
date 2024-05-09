@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+.faq-bg {
+    background-color: rgba(0, 0, 0, 0.88);
+}
+
+#faqs-text1 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    /* display: inline; */
+}
+
+.faq-content-1,
+.faq-content-2 {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+
+}
+
+.faq-content-1 {
+    margin-bottom: 50px;
+}
+
+#faq-content-1-text1,
+#faq-content-1-text2,
+#faq-content-1-text3,
+#faq-content-1-text4,
+#faq-content-2-text1,
+#faq-content-2-text2,
+#faq-content-2-text3,
+#faq-content-3-text1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+
+    height: 50px;
+    width: 90px;
+    text-align: center;
+}
+
+#faq-content-3-text1 {
+    margin-left: 40px;
+    background: rgba(217, 217, 217, 0.5);
+    width: 140px;
+
+}
+
+#faq-content-1-text2 {
+    width: 180px;
+}
+
+#faq-content-1-text3 {
+    width: 340px;
+}
+
+#faq-content-1-text4 {
+    width: 200px;
+}
+
+#faq-content-2-text1 {
+    width: 250px;
+}
+
+#faq-content-2-text2 {
+    width: 200px;
+
+}
+
+#faq-content-2-text3 {
+    width: 300px;
+}
+
+#faq-content-3-text1 {
+    margin-bottom: 200px;
+}
+
+#faq-content-3-text2 {
+
+    color: white;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.73px;
+    text-align: left;
+ margin-left: 80px;
+ margin-bottom: 40px;
+}
+
+
+
+#faq-content-3-text3 {
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 38.73px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+     width: 82%;
+     margin-left: 80px;
+     margin-bottom: 200px;
+}
+
+
+

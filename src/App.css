@@ -1,38 +1,656 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+
+slider {
+  height: 400px;
+  width: 300px;
+}
+
+.card {
+  width: 260px;
+  height: 500px;
+  margin: 40px 10px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+
+}
+
+.card:hover {
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  /* box-shadow: 0px 10px 8px black; */
+  /* box-shadow: 7.9px 15.8px 15.8px hsl(0deg 0% 0% / 0.25); */
+  transform: scale(1.04);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.producthome-image {
+  /* border-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  /* background-color: #0f0fc1; */
+  object-fit: cover;
+
+}
+
+.text {
+  height: 50px;
+  width: 100%;
+  /* background-color:#FFFFFF; */
+  color: #D16E43;
+  font-size: 1.2rem;
   text-align: center;
+  padding: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  height: 150px;
+  width: 100%;
+  /* background-color:#FFFFFF; */
+  padding: 25px;
+  color: #000000;
+  font-size: .90rem;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .home-slider-footer {
   display: flex;
-  flex-direction: column;
+
+  height: 35px;
+  width: 95%;
+  background-color: red;
+  margin-top: 50px;
+  margin-left: 5px;
+} */
+
+.home-slider-footer-text {
+  padding-top: 40px;
+  height: 50px;
+  width: 100%;
+  /* background-color:#FFFFFF; */
+  font-size: 1.3rem;
+  text-align: center;
+  color: #D16E43;
+}
+
+.home-slider-footer-icon {
+  font-size: 4.5rem;
+  color: #D16E43;
+  height: 25px;
+  width: 30px;
+  /* background-color: red; */
+}
+
+.card1 {
+  margin-left: 80px;
+  margin-top: 70px;
+  height: 270px;
+  width: 75%;
+  background-color: #E4FFFDBF;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.card1:hover {
+  transform: scale(1.03);
+  box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.65);
+}
+
+.product1-image {
+  height: 170px;
+  width: 40%;
+  margin-left: 327px;
+  margin-top: 40px;
+}
+
+.text1 {
+  height: 35px;
+  width: 40%;
+  font-size: 1.5rem;
+  /* background-color: #0836b3; */
+  position: absolute;
+  top: 5%;
+}
+
+
+
+.text2 {
+  position: absolute;
+  top: 15%;
+  color: #1A7E11;
+  font-size: 2.8rem;
+  font-weight: 550;
+  padding-top: 15px;
+
+}
+
+.text3 {
+  position: absolute;
+  top: 30%;
+  color: #1A7E11;
+  font-size: 2.8rem;
+  font-weight: 550;
+  padding-top: 20px;
+
+}
+
+.text4 {
+  color: black;
+  height: 30px;
+  width: 300px;
+  font-size: 1.3rem;
+  font-weight: 550;
+  position: absolute;
+  top: 55%;
+  /* background-color: #600606; */
+}
+
+.card1 button {
+  /* margin-top: -50px; */
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.offertext5 {
+  font-size: 1.3rem;
+  padding: 5px;
+
+}
+
+
+.card-3 {
+  height: 140px;
+  width: 45%;
+  background-color: rgb(95, 90, 90);
+  margin-left: 450px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.card-3:hover {
+  transform: scale(1.01);
+  border: 2px solid white;
+
+}
+
+
+.pro-card-3 {
+  color: white;
+  font-size: 1.3rem;
+  font-family: Josefin Sans;
+  /* padding: 22px; */
+}
+
+
+.card-menu {
+  height: 450px;
+  width: 100%;
+  margin-left: 40px;
+  /* background-color: red; */
+}
+
+.product-image-menu {
+  height: 400px;
+  width: 400px;
+}
+
+.product-image-menu:hover {
+  transform: scale(1.02);
+  border-radius: #CB5F5F;
+  box-shadow: #CB5F5F 3px 3px, #CB5F5F 3px 3px, #CB5F5F 5px 5px, #CB5F5F 5px 5px, #CB5F5F 5px 5px 25px;
+}
+
+.menu1card {
+  height: 100px;
+  width: 95%;
+  /* background-color: red; */
+}
+
+.menu1text {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.menu1text a {
+  color: white;
+
+  cursor: pointer;
+  font-size: 1.5rem;
+
+  /* background-color: blue; */
+}
+
+.menu1text a:hover {
+  color: #FFAF40;
+}
+
+
+/* ******************* Blog-slider **********************/
+
+.blog1-card {
+  height: 395px;
+  width: 300px;
+  margin-left: 40px;
+  /* background-color: red; */
+}
+
+.blog1-card:hover {
+  /* border: 2px solid white; */
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  transform: scale(1.03);
+}
+
+.product-blog1-image {
+  width: 100%;
+  height: 220px;
+  border-radius: 0px;
+}
+
+.blog1-icon-part {
+  height: 60px;
+  width: 100%;
+  /* background-color: gray; */
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.blog1-icon-part h2 {
+  background-color: transparent;
+  color: #FFDD95;
+  font-size: 2.2rem;
+}
+
+
+.blog1-description {
+  height: 110px;
+  width: 100%;
+  background: #D9D9D94D;
+  text-align: center;
   color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  border-radius: 20px;
+
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 12.1px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+/* ********************* */
+
+/* ********************* */
+
+
+.blog2-card {
+  background: white;
+  height: 300px;
+  width: 100%;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.blog2-card a :hover {
+  transform: scale(1.04);
+
+}
+
+.blog2-product-image {
+  height: 90%;
+  width: 270px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+
+.blog2-text-part h2 {
+  background-color: transparent;
+  margin-right: 10px;
+  height: 50px;
+  width: 280px;
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  /* padding: 2px;*/
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 23px;
+
+}
+
+.blog2-card a {
+  color: black;
+}
+
+.blog2-description {
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 20px;
+  position: absolute;
+  top: 58%;
+  right: 13%;
+  text-decoration: underline;
+  /* color: white; */
+}
+
+.cart-card {
+  height: 230px;
+}
+
+.cart-card img {
+  margin-left: 10px;
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card5 {
+  height: 350px;
+  width: 350px;
+  margin-left: 40px;
+}
+
+.product5-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 15PX;
+}
+
+.product5-image:hover {
+  transform: scale(1.04);
+  border-radius: #CB5F5F;
+  box-shadow: #CB5F5F 3px 3px, #CB5F5F 3px 3px, #CB5F5F 5px 5px, #CB5F5F 5px 5px, #CB5F5F 5px 5px 7px;
+}
+
+.text5 {
+  margin-top: 13px;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-left: -40px;
+}
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+  .card {
+    width: 200px;
+    height: 380px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .producthome-image {
+    height: 130px;
   }
+
+  .text {
+    height: 40px;
+    font-size: 0.95rem;
+
+  }
+
+  .description {
+    font-size: .80rem;
+    padding: 10px;
+    /* padding-bottom: 2px; */
+    height: 120px;
+  }
+
+  .home-slider-footer-text {
+    font-size: 1rem;
+    padding-top: 55px;
+
+  }
+
+  .card1 {
+    height: 200px;
+    width: 95%;
+    margin-left: 5px;
+    padding-left: 0px;
+    margin-top: 50px;
+
+  }
+
+  .product1-image {
+    height: 90px;
+    width: 45%;
+    margin-left: 109px;
+    margin-top: 20px;
+  }
+
+
+  .text1 {
+    font-size: 1.1rem;
+    height: 30px;
+    padding-left: 7px;
+
+  }
+
+
+  .text2 {
+    font-size: 1.1rem;
+    top: 10%;
+    padding-left: 7px;
+  }
+
+  .text3 {
+    font-size: 1.1rem;
+    top: 20%;
+    padding-left: 7px;
+
+  }
+
+  .text4 {
+    height: 25px;
+    width: 200px;
+    font-size: .95rem;
+    top: 60%;
+    padding-left: 7px;
+
+
+  }
+
+  .card1 button {
+    width: 120px;
+    height: 40px;
+    top: 75%;
+    padding-left: 5px;
+  }
+
+  .offertext5 {
+    font-size: .65rem;
+
+  }
+
+
+  .card-3 {
+    height: 120px;
+    width: 79%;
+    margin-left: 50px;
+    padding: 10px;
+  }
+
+  .card-3 p{
+    font-size: .85rem;
+    line-height: 15px;
+  }
+
+
+
+  .card5 {
+    height: 180px;
+    width: 200px;
+    margin-left: 5px;
+  }
+
+  .product5-image {
+    height: 140px;
+    width: 130px;
+  }
+
+
+  .text5 {
+    font-size: .65rem;
+    margin-left: -80px;
+
+  }
+
+  .card-menu {
+    height: 150px;
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .product-image-menu {
+    height: 100px;
+    width: 100px;
+  }
+
+
+  .menu1card {
+    height: 60px;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .menu1text {
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .menu1text a {
+    font-size: .65rem;
+  }
+
+  /************** */
+
+
+  .blog1-card {
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+  }
+
+  .product-blog1-image {
+    height: 120px;
+  }
+
+  .blog1-icon-part {
+    height: 40px;
+  }
+
+  .blog1-icon-part h2 {
+    font-size: 1rem;
+
+  }
+
+  .blog1-description {
+    height: 120px;
+    font-size: 8px;
+    padding: 5px;
+  }
+
+  /* ************** */
+
+  .blog2-card {
+    /* background-color: red; */
+    height: 250px;
+    margin-left: 5px;
+    padding: 0px;
+  }
+
+  .blog2-card a {
+    color: black;
+  }
+
+  .blog2-product-image {
+    width: 140px;
+    /* height: 70%; */
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .blog2-text-part h2 {
+    width: 200px;
+    font-size: .90rem;
+    line-height: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .blog2-description {
+    font-size: 1rem;
+    margin-left: 0px;
+  }
+
+
+  .blog-part1-card {
+    /* background-color: red; */
+    height: 300px;
+    width: 100%;
+  }
+
+  .blog-part1-text {
+    font-size: 1rem;
+    color: #FDF4F4;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .blog-prod-image {
+    height: 150px;
+    width: 60%;
+    margin-left: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+  }
+
+  .blog-part1-description {
+    color: #FDF4F4;
+    font-size: .70rem;
+    line-height: 15px;
+    padding-left: 10px;
+  }
+
+
+
+
+
+
+
 }

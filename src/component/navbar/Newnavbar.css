@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+.newnavbar {
+    /* background: #251a17; */
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+
+
+.newnav-logo img {
+    height: 60px;
+    width: 100px;
+    margin-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+    display: inline;
+}
+
+.newnav-link {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 10px;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-family: Josefin Sans;
+
+}
+
+.newnav-link a {
+    font-size: 1.7rem;
+    padding: 60px;
+    color: white;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Josefin Sans;
+}
+
+.search-box {
+    position: relative;
+    margin-top: 20px;
+    /* margin-left: 0px; */
+}
+
+.search-box input[type="text"] {
+    background: #FFF6F6;
+    width: 180px;
+    height: 43px;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 170px;
+    border-radius: 20px;
+    padding: 8px;
+    padding-right: 40px;
+    color: black;
+}
+
+.search-box>span {
+    position: absolute;
+    right: 10px;
+    font-size: 1.6rem;
+    top: 10px;
+    background: #FFF6F6;
+
+}
+
+.newnav-link input {
+    padding: 10px;
+}
+
+/* ****************** */
+
+/* ******************* */
+
+.hamgernewnav,
+.newnav-searchicon,
+.hamgernewnav-close,
+.newnav-mobile-extra-link 
+{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:425px) {
+
+
+    .newnavbar {
+        height: 55px;
+        /* background-color: red; */
+    }
+
+
+    .newnav-logo img {
+        height: 40px;
+        width: 50px;
+        margin-left: 10px;
+
+    }
+
+    .newnav-logo-block {
+        display: none;
+    }
+
+    .newnav-link,
+    .search-box ,
+    .newnavshow-block{
+        display: none;
+    }
+
+    .mobilenewnav {
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3rem;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        z-index: 100;
+    }
+    .mobilenewnav a{
+        color: black;
+
+    }
+    
+    .newnav-searchicon,
+    .hamgernewnav-close {
+        display: block;
+        color: white;
+        font-size: 2.2rem;
+        position: absolute;
+        right: 12%;
+        top: 8px;
+    }
+
+    .hamgernewnav-close {
+        color: black;
+        z-index: 100;
+    }
+
+    .hamgernewnav {
+        display: block;
+        color: white;
+        position: absolute;
+        right: 4%;
+        font-size: 2.2rem;
+        top: 8px;
+    }
+
+    
+    .newnav-mobile-extra-link {
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+   
+    }
+
+}

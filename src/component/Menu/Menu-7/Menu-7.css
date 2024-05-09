@@ -1,0 +1,351 @@
+.menu-7-bg {
+    background: #252323;
+}
+
+.meun7-navbar-bg {
+    background-color: #252323;
+}
+
+.menu7-home-bg img {
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+
+
+.menu7-heading {
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    align-items: center;
+}
+
+.menu7-heading-1,
+.menu7-heading-2 {
+
+    height: 28px;
+    width: 350px;
+    /* background: #D16E43; */
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.menu7-heading-1 p,
+.menu7-heading-2 p {
+    display: inline;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+    font-weight: 550;
+}
+
+
+#menu7-veg,
+#menu7-non-veg {
+
+    padding: 20px 10px 10px 10px;
+    margin: 8px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background: #D3C9C9;
+    border-radius: 7px;
+    margin-top: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    position: relative;
+}
+
+#menu7-veg span,
+#menu7-non-veg span {
+    background-color: transparent;
+    /* align-items: center; */
+    /* margin-top: -5px; */
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+#menu7-veg span {
+    color: #2FD820;
+
+}
+
+#menu7-non-veg span {
+    color: #D71919;
+}
+
+
+.menu7-item-bag {
+    height: 700px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+}
+
+.menu7-item-bag-1 {
+    height: 650px;
+    width: 45%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu7-item-bag-2 {
+    width: 45%;
+
+    height: 350px;
+    /* justify-content: space-around; */
+    margin-top: -320px;
+    /* background-color: red; */
+}
+
+.menu7-item-bag-1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #F6FA11;
+}
+
+.menu7-item-1,
+.menu7-item-2,
+.menu7-item-3,
+.menu7-item-4,
+.menu7-item-5,
+.menu7-item-6,
+.menu7-item-7,
+.menu7-item-8 {
+    height: 100px;
+    width: 80%;
+    /* background-color: #3cb521; */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 40px;
+}
+
+#menu7-item-bag-heading {
+    color: white;
+    font-size: 1.5rem;
+    display: inline;
+    height: 40px;
+    width: 280px;
+    /* background-color: red; */
+}
+
+#menu7-item-bag-heading span {
+    color: #F6FA11;
+}
+
+
+#menu7-increment {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+#menu7-increment span {
+    background-color: transparent;
+    /* padding: 0px; */
+    margin-top: 15px;
+    font-size: .95rem;
+}
+
+.menu7-item-1 #add-btn,
+.menu7-item-2 #add-btn,
+.menu7-item-3 #add-btn,
+.menu7-item-4 #add-btn,
+.menu7-item-5 #add-btn,
+.menu7-item-6 #add-btn,
+.menu7-item-7 #add-btn,
+.menu7-item-8 #add-btn {
+    /* background-color: transparent; */
+
+    background: #CB5F5F;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+}
+
+.menu7-item-img {
+    display: none;
+}
+
+.menu7-line {
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+
+
+    .menu7-home-bg img {
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .menu7-heading {
+        flex-direction: column;
+        gap: 1300px;
+    }
+
+    #menu7-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-top: 10px;
+        background-color: #F6FA11;
+    }
+
+    .menu7-heading-1,
+    .menu7-heading-2 {
+        background: #D16E43;
+        width: 150px;
+    }
+
+    .menu7-heading-1 {
+        padding: 3px;
+    }
+
+    .menu7-heading-2 {
+        padding: 4px;
+    }
+
+    .menu7-heading-1 p,
+    .menu7-heading-2 p {
+        font-size: 1rem;
+    }
+
+    .menu7-item-bag {
+        height: 1800px;
+        flex-direction: column;
+        gap: 80px;
+
+    }
+
+    .menu7-item-bag-1 {
+        width: 100%;
+        height: 1300px;
+    }
+
+    .menu7-item-bag-2 {
+        width: 100%;
+        height: 1200px;
+        margin-top: 0px;
+    }
+
+    .menu7-item-1,
+    .menu7-item-2,
+    .menu7-item-3,
+    .menu7-item-4,
+    .menu7-item-5,
+    .menu7-item-6,
+    .menu7-item-7,
+    .menu7-item-8 {
+        height: 180px;
+        width: 100%;
+        /* background-color: red; */
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+
+    #menu7-veg,
+    #menu7-non-veg {
+        margin-left: -30px;
+        margin-top: -50px;
+
+    }
+
+
+    #menu7-item-bag-heading {
+        /* background-color: yellow; */
+        width: 180px;
+        height: 50px;
+        font-size: .80rem;
+        margin-top: -50px;
+        margin-left: 2px;
+    }
+
+    #menu7-increment {
+        display: block;
+        border-radius: 5px;
+        height: 25px;
+        width: 50px;
+        padding-top: 3px;
+        padding-left: 5px;
+        float: right;
+        position: absolute;
+        /* display: inline-flex; */
+        font-size: .80rem;
+        margin-right: -280px;
+        margin-top: 160px;
+        background-color: white;
+    }
+
+
+    .menu7-item-img {
+        display: block;
+    }
+
+    .menu7-item-img img {
+        /* display: block; */
+        height: 130px;
+        width: 130px;
+        margin-right: -15px;
+        margin-top: 35px;
+    }
+
+    .extra7 {
+        margin-top: 0px;
+        margin-right: -25px;
+    }
+
+    #extra1 {
+        margin-left: -10px;
+    }
+
+    .menu7-item-bag-1::after,
+    .menu7-item-1 #add-btn,
+    .menu7-item-2 #add-btn,
+    .menu7-item-3 #add-btn,
+    .menu7-item-4 #add-btn,
+    .menu7-item-5 #add-btn,
+    .menu7-item-6 #add-btn,
+    .menu7-item-7 #add-btn,
+    .menu7-item-8 #add-btn,
+    .icon {
+
+        display: none;
+    }
+
+
+
+
+}

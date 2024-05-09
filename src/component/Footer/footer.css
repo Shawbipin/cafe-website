@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: #CDC4C4;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.moblie-footer-section {
+    display: none;
+}
+
+.footer-section-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+
+.Address,
+.Help,
+.Contact,
+.Useful {
+    height: 150px;
+    width: 180px;
+
+
+}
+
+.Help,
+.Contact {
+    width: 200px;
+}
+
+.Address>h2,
+.Help>h2,
+.Contact>h2,
+.Useful>h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+
+}
+
+.Address>p,
+.Help>a,
+p,
+.Contact>p,
+.Useful>p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 24.2px;
+    text-align: left;
+}
+
+
+.Help>a {
+    color: black;
+}
+
+.footer-section-2 {
+    height: 10%;
+    width: 650px;
+    position: absolute;
+    bottom: 10%;
+    left: 38%;
+
+}
+
+.footer-section-2 h2 {
+    display: inline;
+    padding-right: 20px;
+    font-size: 2rem;
+}
+
+.footer-section-2 span {
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+
+
+.moblie-footer-section1 {
+    display: none;
+}
+
+.copyright {
+    width: 100%;
+    height: 45px;
+    background: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyright p {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.moblie-footer-section1 {
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+
+    .footer {
+        height: 230px;
+    }
+
+    .footer-section-1 {
+        padding-top: 30px;
+        margin-left: -5px;
+        height: 200px;
+    }
+
+    .Address,
+    .Help,
+    .Contact,
+    .Useful {
+        padding-left: 10px;
+        height: 130px;
+        width: 100px;
+
+    }
+
+    .Address>h2,
+    .Help>h2,
+    .Contact>h2,
+    .Useful>h2 {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+
+    .Address>p,
+    .Help>a,
+    p,
+    .Contact>p,
+    .Useful>p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+   
+
+    .footer-section-2 {
+        left: 0%;
+        bottom: 5%;
+        width: 100%;
+    }
+
+
+    .footer-section-2 h2 {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 80px;
+        color: rgba(215, 25, 25, 1);
+    }
+
+
+    .footer-section-2 span {
+        font-size: 1.1rem;
+
+    }
+
+    .copyright p {
+
+        font-size: 1rem;
+    }
+
+}

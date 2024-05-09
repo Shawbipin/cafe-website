@@ -1,0 +1,222 @@
+.login-bg {
+    /* background: #252323; */
+}
+
+.navbar-bg-black {
+    background-color: black;
+    /* height: 100px;
+    width: 100%; */
+}
+
+.main-login {
+    height: 500px;
+    width: 45%;
+    /* background: red; */
+    margin-left: 100px;
+    margin-top: 80px;
+    /* display: inline-block; */
+    border: 2px solid black;
+    margin-bottom: 60px;
+    /* display: block; */
+}
+
+#main-heading {
+    font-weight: 600;
+    font-size: 2.5rem;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+#login-1-text {
+    color: #D16E43;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 550;
+    margin-top: 30px;
+
+}
+
+.reg-login-section {
+    height: 300px;
+    width: 70%;
+    /* background: blue; */
+    margin-left: 130px;
+    /* margin: 5px; */
+    display: block;
+}
+
+
+.reg-login-section input {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.reg-login-section input[type="text"] {
+    font-size: 1.2rem;
+    color: #4A4747BF;
+    padding-left: 10px;
+    font-weight: 600;
+
+}
+
+#login-2-text {
+    color: #4A4747BF;
+    width: 255.54px;
+    /* height: 30.27px; */
+    float: right;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.reg-login-section button {
+    height: 50px;
+    width: 60%;
+    margin-left: 65px;
+    margin-top: 40px;
+    background: #F0AD90;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    /* margin-top: 10px; */
+    font-weight: 600;
+}
+
+.reg-login-section button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.login-img img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 30%;
+    right: 12%;
+}
+
+.already-account {
+    height: 50px;
+    width: 500px;
+    display: inline-flex;
+    margin-left: 200px;
+    padding-right: 10px;
+}
+
+.already-account p {
+    height: 30px;
+    /* width: 70px; */
+    color: #D16E43;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
+.already-account button {
+    border: none;
+    height: 30px;
+    width: 70px;
+    background: #F0AD90;
+    color: black;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    font-size: .95rem;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:425px) {
+
+
+    .main-login {
+        height: 300px;
+        width: 60%;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    #main-heading {
+        font-size: 1.5rem;
+        margin-left: 160px;
+        margin-top: 40px;
+    }
+
+    #login-1-text {
+        font-size: 0.90rem;
+
+    }
+
+    .reg-login-section {
+
+        height: 150px;
+        /* width: ; */
+        margin-left: 10px;
+
+
+    }
+
+    .reg-login-section input {
+        width: 90%;
+        height: 28px;
+        margin-left: 40px;
+
+    }
+
+    .reg-login-section input[type="text"] {
+        font-size: .80rem;
+    }
+
+
+
+    #login-2-text {
+        width: 150.54px;
+        font-size: .85rem;
+        margin-right: 10px;
+
+    }
+
+    .reg-login-section button {
+        height: 35px;
+        width: 60%;
+        font-size: 1rem;
+    }
+
+
+    .login-img img {
+        width: 150px;
+        height: 150px;
+        right: 0%;
+        top: 55%;
+    }
+
+
+    .already-account {
+        height: 50px;
+        width: 300px;
+    }
+
+    .already-account p {
+        font-size: .90rem;
+
+
+    }
+
+
+    .already-account button {
+
+        height: 18px;
+        width: 40px;
+        font-size: .55rem;
+
+    }
+
+}

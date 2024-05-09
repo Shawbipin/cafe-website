@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+
+
+.account-main {
+  background-image: url("../../asset/new-acc-bg.png");
+  width: 100%;
+  height: 1400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidenavbar-account {
+  height: 280px;
+  width: 23%;
+  margin-top: 100px;
+  margin-left: 20px;
+  display: inline-flex;
+
+  /* background-color: red; */
+}
+
+
+
+
+.account-content {
+
+  height: 1000px;
+  width: 70%;
+  /* background-color: red; */
+  float: right;
+  margin-top: 100px;
+}
+
+
+#account-content-text1,
+#account-content-text2 {
+  font-family: Inter;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45.99px;
+  text-align: left;
+  color: white;
+  margin-bottom: 60px;
+}
+
+#account-content-text2 {
+  font-size: 32px;
+  line-height: 38.73px;
+  margin-bottom: 30px;
+}
+
+#account-content-text3,
+#account-content-text0 {
+
+  height: 1.5px;
+  width: 100%;
+  background: white;
+  margin-bottom: 60px;
+}
+
+#account-content-text4,
+#account-content-text5,
+#account-content-text6,
+#account-content-text7,
+#account-content-text8,
+#account-content-text9,
+#account-content-text10,
+#account-content-text11,
+#account-content-text12,
+#account-content-text13 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: white
+}
+
+#account-content-text5 {
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+#account-content-text6 {
+  font-weight: 300;
+  margin-bottom: 70px;
+  padding-left: 10px;
+}
+
+
+#account-content-text7 {
+  font-size: 32px;
+  line-height: 38.73px;
+  margin-bottom: 10px;
+}
+
+#account-content-text0 {
+  margin-bottom: 50px;
+}
+
+#account-content-text8 {
+  margin-bottom: 20px;
+}
+
+#account-content-text9 {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+#account-content-text10 {
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+
+#account-content-text12 {
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+#account-content-text13 {
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+
+
+.account-footer {
+  width: 100%;
+  height: 200px;
+  /* background-color: red; */
+  float: left;
+}
+
+
+
+#account-footer-text1 {
+  width: 100%;
+  height: 1.5px;
+  background-color: white;
+  margin-bottom: 35px;
+
+}
+
+#account-footer-text2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.73px;
+  text-align: left;
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  /* display: inline-block; */
+}
+
+#account-footer-input {
+  height: 50px;
+  width: 450px;
+  margin-left: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  /* padding: 0px; */
+  display: inline-flex;
+  /* display: inline-block; */
+}
+
+
+
+#account-footer-button {
+  background-color: rgba(217, 217, 217, 0.9);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.73px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 48px;
+  width: 130px;
+  border: none;
+  display: inline-flex;
+
+}
+
+
+@media screen and (max-width:425px) {
+
+
+  .account-main {
+    height: 820px;
+  }
+
+  .sidenavbar-account {
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 10px;
+
+  }
+
+  .account-content {
+    height: 550px;
+
+  }
+
+  #account-content-text1,
+  #account-content-text2 {
+
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  #account-content-text2 {
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  #account-content-text3,
+  #account-content-text0 {
+    margin-bottom: 20px;
+
+  }
+
+  #account-content-text4,
+  #account-content-text5,
+  #account-content-text6,
+  #account-content-text7,
+  #account-content-text8,
+  #account-content-text9,
+  #account-content-text10,
+  #account-content-text11,
+  #account-content-text12,
+  #account-content-text13 {
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  #account-content-text6 {
+    margin-bottom: 30px;
+
+
+  }
+
+  #account-content-text0 {
+    margin-bottom: 25px;
+  }
+
+  #account-content-text8 {
+    margin-bottom: 10px;
+  }
+
+  #account-content-text9 {
+    margin-bottom: 20px;
+  }
+
+  #account-content-text10 {
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  #account-content-text12 {
+    margin-bottom: 30px;
+  }
+
+  #account-footer-text1 {
+    margin-bottom: 15px;
+  }
+
+  .account-footer {
+    height: 120px;
+  }
+
+  #account-footer-text2 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 10px;
+
+  }
+
+  #account-footer-input {
+    height: 32px;
+    width: 280px;
+    margin-left: 10px;
+  }
+
+  #account-footer-button {
+    font-size: 15px;
+    line-height: 15px;
+    height: 30px;
+    padding: 7px;
+    width: 80px;
+    margin-top: -15px;
+  }
+
+
+
+
+
+
+
+}
